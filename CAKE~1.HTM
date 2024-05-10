@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Floral Flourish Café - CAKE</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @font-face{
+            font-family: myFont;
+            src:url("BeautySalon\ Script\ Regular.ttf")
+            }
+            .top{
+                height:200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                font-family: cursive;
+                display: flex;
+                flex-direction: column;
+                line-height: 3em;
+                margin: -30px;
+                background-image: url("image_file/blackwood.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+            .crepe_cake, .cheesecake{
+                background-color: #E4E2E2;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px;
+                margin: 60px 200px;
+                border-radius: 20px;
+            }
+
+            .item {
+                flex: 1 1 300px;
+                display: flex;
+                flex-direction: column;
+                align-items: center; 
+                text-align: center;
+                padding: 20px; 
+                margin: 50px; 
+                max-width: 400px;
+            }
+            .item img{
+                border-radius: 20px;
+                box-shadow: 2px 2px 2px 2px #919191;
+            }
+            .category{
+                height:100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 70px;
+                font-family: myFont;
+                display: flex;
+                flex-direction: column;
+                margin-top: 50px;
+            }
+            .title , .price{
+                font-family: cursive;
+                font-size: 22px;
+                font-weight: bold;
+                margin: 20px;
+            }
+            .describe{
+                font-family: monospace;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+    <header>
+        <div class="logo">
+            <a href="Home.html"><img src="image_file/logo.svg" alt="Floral Flourish Café"></a><!--User may  direct to home page by clicking this logo image-->
+        </div>
+        <nav>
+            <!-- Website name and navigation links -->
+            <h2>Floral Flourish Café</h2>
+            <ul>
+                <li><a href="Home.html">HOME</a>&emsp;&emsp;</li>
+                <li><a href="Flower.html">FLOWER</a>&emsp;&emsp;</li>
+                <li><a href="Beverage.html">BEVERAGE</a>&emsp;&emsp;</li>
+                <li><a href="Cake.html">CAKE</a>&emsp;&emsp;</li>
+                <li><a href="About_us.html">ABOUT US</a>&emsp;&emsp;</li>
+            </ul>
+        </nav><!--navigation for the header-->
+    </header>
+
+    <main>
+        <div class="top">
+        <h3>Menu of Cake</h3>
+        <p>Every cake has a story — taste the tale</p>
+        </div>
+
+        <h3 class="category">Crepe Cake</h3>
+        <div class="crepe_cake">
+
+            <div class="item">
+                <img src="image_file/oreo_mille_crepe_cake.jpg" alt="oreo_mille_crepe_cake" width="355" height="355">
+                <p class="title">Oreo Mille Crepe Cake </p>
+                <p class="describe">Creamy layers of Oreo-infused crepes, marrying childhood nostalgia with gourmet delight.</p>
+                <p class="price">RM 15.00</p> 
+            </div>
+        
+            <div class="item">
+                <img src="image_file/red_velvet_crepe_cake.jpg" alt="red_velvet_crepe_cake" width="355" height="355">
+                <p class="title">Red Velvet Crepe Cake </p>
+                <p class="describe">Luxurious layers of red velvet crepes and creamy cheese frosting, a decadent indulgence.</p>
+                <p class="price">RM 15.00</p>
+            </div>
+
+            <div class="item">
+                <img src="image_file/japan_kaori_matcha_red_bean_crepe_cake.jpg" alt="japan_kaori_matcha_red_bean_crepe_cake" width="355" height="355">
+                <p class="title">Japan Kaori Matcha Red Bean Crepe Cake </p>
+                <p class="describe">Fragrant matcha-infused crepes with sweet red bean paste, a taste of Japan's serene flavors.</p>
+                <p class="price">RM 16.00</p>
+            </div>
+
+            <div class="item">
+                <img src="image_file/rainbow_crepe_cake.jpg" alt="rainbow_crepe_cake" width="355" height="355">
+                <p class="title">Rainbow Crepe Cake </p>
+                <p class="describe">Colorful layers of fruity crepes, a vibrant burst of joy in every slice.</p>
+                <p class="price">RM 14.00</p>
+            </div>
+
+            <div class="item">
+                <img src="image_file/tiramisu_cake_mille_crepe.jpg" alt="tiramisu_cake_mille_crepe" width="355" height="355">
+                <p class="title">Tiramisu Cake Mille Crepe </p>
+                <p class="describe">Espresso-soaked crepes layered with creamy mascarpone, an Italian classic reimagined.</p>
+                <p class="price">RM 15.00</p>
+            </div>
+
+            <div class="item">
+                <img src="image_file/tropical_summer_mango_crepe_cake.jpg" alt="tropical_summer_mango_crepe_cake" width="355" height="355">
+                <p class="title">Tropical Summer Mango Crepe Cake </p>
+                <p class="describe">Golden crepes filled with mango cream, a taste of refreshing summer in every bite.</p>
+                <p class="price">RM 14.00</p>
+            </div>
+        </div>
+
+        <h3 class="category">Cheesecake</h3>
+        <div class="cheesecake">
+            <div class="item">
+                <img src="image_file/oreo_cheesecake.jpg" alt="oreo_cheesecake" width="355" height="355">
+                <p class="title">Oreo Cheesecake </p>
+                <p class="describe">Creamy cheesecake loaded with chunks of Oreo cookies for a nostalgic and irresistible treat.</p>
+                <p class="price">RM 15.00</p> 
+            </div>
+            <div class="item">
+                <img src="image_file/mango_cheesecake.jpg" alt="mango_cheesecake" width="355" height="355">
+                <p class="title">Mango Cheesecake </p>
+                <p class="describe">Smooth cheesecake infused with ripe mangoes, offering a refreshing tropical twist.</p>
+                <p class="price">RM 14.00</p> 
+            </div>
+            <div class="item">
+                <img src="image_file/durian_cheesecake.jpg" alt="durian_cheesecake" width="355" height="355">
+                <p class="title">Durian Cheesecake </p>
+                <p class="describe">Creamy cheesecake with the exotic flavor of durian fruit for a daringly delicious experience.</p>
+                <p class="price">RM 17.00</p> 
+            </div>
+            <div class="item">
+                <img src="image_file/salted_caramel_cheesecake.jpg" alt="salted_caramel_cheesecake" width="355" height="355">
+                <p class="title">Salted Caramel Cheesecake </p>
+                <p class="describe">Velvety cheesecake swirled with luscious salted caramel, balancing sweet and salty flavors perfectly.</p>
+                <p class="price">RM 14.00</p> 
+            </div>
+            <div class="item">
+                <img src="image_file/strawberry_cheesecake.jpg" alt="strawberry_cheesecake" width="355" height="355">
+                <p class="title">Strawberry Cheesecake </p>
+                <p class="describe">Classic cheesecake topped with fresh strawberries, delivering a sweet-tart burst of summer goodness.</p>
+                <p class="price">RM 14.00</p> 
+            </div>
+            <div class="item">
+                <img src="image_file/blueberry_cheesecake.jpg" alt="blueberry_cheesecake" width="355" height="355">
+                <p class="title">Blueberry Cheesecake </p>
+                <p class="describe">Creamy cheesecake with a swirl of juicy blueberry compote, creating a delightful blend of flavors.</p>
+                <p class="price">RM 14.00</p> 
+            </div>
+        </div>
+    </main>
+    <footer><!--Here is footer!!!! No any content below this!!!!!-->
+        <h1>Floral Flourish Café</h1>
+        <h3><em>Visit us for a delightful blend of fresh blooms and refreshing beverages.</em></h3>
+        <p>Contact: <a href="tel:+601133948380">011-33948380</a> | <a href="mailto:floralflourishcafe@gmail.com">floralflourishcafe@gmail.com</a></p>
+        <p>Follow us: <a href="https://facebook.com/FloralFlourishCafé" target="_blank"><img src="image_file/Facebook_logo.png" alt="Facebook" height="30" width="30"></a>&emsp;<a href="https://instagram.com/FloralFlourishCafé" target="_blank"><img src="image_file/Instagram_logo.svg.webp" alt="Instagram" height="30" width="30"></a></p>
+        <p><em>Copyright &copy; 2024 Floral Flourish Café. All Rights Reserved.</em></p>
+</footer>
+</body>
+</html>

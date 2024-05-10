@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Floral Flourish Café - Beverage</title>
+        <link rel="stylesheet" href="style.css">
+        <style>/*Inline css for this page design*/
+            .table_header{
+        text-align: center;
+        font-family: cursive;
+        font-size: 45px;
+        color: black;
+        width: 100%;
+        height: 10%;
+        }
+        .table_2_header{
+        text-align: center ;
+        font-family: cursive;
+        font-size: 45px;
+        color: white;
+        width: 100%;
+        height: 10%;
+        }
+        .table_body {
+        display: flex;
+        justify-content: left;
+        font-size: 28px;
+        font-family: cursive;
+        padding-left: 5%;
+        padding-right: 10%;
+        color: black;
+        }
+        .table_2_body {
+        display: flex;
+        justify-content: right;
+        font-size: 28px;
+        font-family: cursive;
+        padding-left: 5%;
+        padding-right: 10%;
+        color: white;
+        }
+        table,th,td{
+        padding: 1rem;
+        }
+        section.coffee{
+        background-image: url(image_file/Beverage_menu.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        }
+        section.tea{
+        background-image:  url(image_file/Beverage_tea.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        }
+        .featured{
+        font-weight: 400;
+        font-size: 20px;
+        color: black;
+        margin: 0;
+        padding-left: 4px;
+        line-height: 2;
+        font-family: cursive;
+        background-color:#e9d9c4;
+        text-align: center;
+        }
+        .featured strong{
+        font-size: 50px;
+        }
+        .featured_drinks{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        background-color:#e9d9c4;
+        padding: 30px 180px 80px;
+        }
+        .featured_drinks div{
+        width: 300px;
+        text-align: center;
+        font-family: cursive;
+        }
+        .featured_drinks img{
+        width: 100%;
+        border-radius: 30px;
+        }
+        .featured_drinks h2{
+        font-size: 23px;
+        margin:20px 0;
+        color:black;
+        }
+        .featured_drinks p{
+        font-size: 15px;
+        line-height: 1.6em;
+        color: black;
+        }
+        </style>
+    </head>
+    <body>
+    <header>
+        <div class="logo">
+            <a href="Home.html"><img src="image_file/logo.svg" alt="Floral Flourish Café"></a><!--User may  direct to home page by clicking this logo image-->
+        </div>
+        <nav>
+            <h2>Floral Flourish Café</h2><!--This tittle may help user to easy find us in web browser-->
+            <ul>
+                <li><a href="Home.html">HOME</a>&emsp;&emsp;</li>
+                <li><a href="Flower.html">FLOWER</a>&emsp;&emsp;</li>
+                <li><a href="Beverage.html">BEVERAGE</a>&emsp;&emsp;</li>
+                <li><a href="Cake.html">CAKE</a>&emsp;&emsp;</li>               
+                <li><a href="About_us.html">ABOUT US</a>&emsp;&emsp;</li>
+            </ul>
+        </nav><!--navigation for the header-->
+    </header>
+    <main>
+        <section class="featured">
+            <h2>FEATURED DRINKS</h2>
+            <strong>Let Happiness Bloom</strong>
+            <p>&emsp;<br></p>
+        </section>
+        <section class="featured_drinks"><!--Most popular drinks in our shop-->
+            <div>
+                <img src="image_file/Beverage_affogato.jpg" alt="Salted Caramel Affogato" width="400" height="400">
+                <h2>Salted Caramel Affogato</h2>
+                <p>If you're feeling fancy, or like combining your coffee with your dessert, the affogato could be just what you are looking for.</p>
+            </div> 
+            <div>
+                <img src="image_file/Beverage_pumpkin.jpg" alt="Pumpkin Cream Cold Brew" width="400" height="400">
+                <h2>Pumpkin Cream Cold Brew</h2>
+                <p>The Pumpkin Cream Cold Brew could be just what you are looking for suggests that if you want to combine coffee with a seasonal twist, this drink might be a great choice.</p>
+            </div>
+            <div>
+                <img src="image_file/Beverage_dalgona.png" alt="Dalgona Coffee" width="400" height="400">
+                <h2>Dalgona Coffee</h2>
+                <p>Originating from Macau made by whipping equal parts instant coffee powder, sugar, and hot water until it becomes creamy and then adding it to cold or hot milk.</p>
+            </div>
+        </section>
+        <section class="coffee">
+            <div class="table_header"><!--Table 1 for the beverage part(Selling coffee)-->
+                <h2>Coffee</h2>
+            </div>
+            <div class="table_body">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>&emsp;</th>
+                            <th>Single(8oz)</th>
+                            <th>Double(16oz)</th>
+                            <th>Iced(16oz)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cappuccino / Latte</td>
+                            <td><h6>RM</h6>11.20</td>
+                            <td><h6>RM</h6>13.80</td>
+                            <td><h6>RM</h6>13.80</td>
+                        </tr>
+                        <tr>
+                            <td>Flat White</td>
+                            <td><h6>RM</h6>11.20</td>
+                            <td><h6>RM</h6>13.80</td>
+                            <td><h6>RM</h6>13.80</td>
+                        </tr>
+                        <tr>
+                            <td>Mocha</td>
+                            <td><h6>RM</h6>12.60</td>
+                            <td><h6>RM</h6>15.20</td>
+                            <td><h6>RM</h6>15.20</td>
+                        </tr>
+                        <tr>
+                            <td>Americano</td>
+                            <td><h6>RM</h6>7.80</td>
+                            <td><h6>RM</h6>9.80</td>
+                            <td><h6>RM</h6>9.80</td>
+                        </tr>
+                        <tr>
+                            <td>Espresso / Macchiato</td>
+                            <td><h6>RM</h6>6.20</td>
+                            <td><h6>RM</h6>7.20</td>
+                            <td>-----</td>
+                        </tr>
+                        <tr>
+                            <td>Oat Milk Latte</td>
+                            <td><h6>RM</h6>14.40</td>
+                            <td><h6>RM</h6>17.00</td>
+                            <td><h6>RM</h6>17.00</td>
+                        </tr>
+                        <tr>
+                            <td>Irish Cream Latte</td>
+                            <td><h6>RM</h6>12.50</td>
+                            <td><h6>RM</h6>15.20</td>
+                            <td><h6>RM</h6>15.20</td>
+                        </tr>
+                        <tr>
+                            <td>Caramel Latte</td>
+                            <td><h6>RM</h6>12.50</td>
+                            <td><h6>RM</h6>15.20</td>
+                            <td><h6>RM</h6>15.20</td>
+                        </tr>
+                        <tr>
+                            <td>Vanilla Latte</td>
+                            <td><h6>RM</h6>12.50</td>
+                            <td><h6>RM</h6>15.20</td>
+                            <td><h6>RM</h6>15.20</td>
+                        </tr>
+                        <tr>
+                            <td>Matcha Green Tea Latte</td>
+                            <td><h6>RM</h6>13.50</td>
+                            <td><h6>RM</h6>16.00</td>
+                            <td><h6>RM</h6>16.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="tea">
+            <div class="table_2_header"><!--Table 2 for the beverage part(Selling non coffee)-->
+                <h2>Non Coffee</h2>
+            </div>
+            <div class="table_2_body">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>&emsp;</th>
+                            <th>Iced(16oz)</th>
+                            <th>Hot(Teapot)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Iced Earl Grey Tea</td>
+                            <td><h6>RM</h6>9.00</td>
+                            <td>-----</td>
+                        </tr>
+                        <tr>
+                            <td>Chocolate Cream Frappé</td>
+                            <td><h6>RM</h6>14.80</td>
+                            <td>-----</td>
+                        </tr>
+                        <tr>
+                            <td>Irish Cream Frappé</td>
+                            <td><h6>RM</h6>14.80</td>
+                            <td>-----</td>
+                        </tr>
+                        <tr>
+                            <td>Mocha Frappé</td>
+                            <td><h6>RM</h6>14.80</td>
+                            <td>-----</td>
+                        </tr>
+                        <tr>
+                            <td>Matcha Green Tea Frappé</td>
+                            <td><h6>RM</h6>16.80</td>
+                            <td>-----</td>
+                        </tr>
+                        <tr>
+                            <td>Irish Breakfast Tea</td>
+                            <td>-----</td>
+                            <td><h6>RM</h6>8.00</td>
+                        </tr>
+                        <tr>
+                            <td>Earl Grey Tea</td>
+                            <td>-----</td>
+                            <td><h6>RM</h6>9.00</td>
+                        </tr>
+                        <tr>
+                            <td>Chamomile Tea</td>
+                            <td>-----</td>
+                            <td><h6>RM</h6>9.00</td>
+                        </tr>
+                        <tr>
+                            <td>Peppermint Tea</td>
+                            <td>-----</td>
+                            <td><h6>RM</h6>9.00</td>
+                        </tr>
+                        <tr>
+                            <td>Peach Tea</td>
+                            <td>-----</td>
+                            <td><h6>RM</h6>9.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+    </main>
+    <footer><!--Here is footer!!!! No any content below this!!!!!-->
+        <h1>Floral Flourish Café</h1>
+        <h3><em>Visit us for a delightful blend of fresh blooms and refreshing beverages.</em></h3>
+        <p>Contact: <a href="tel:+601133948380">011-33948380</a> | <a href="mailto:floralflourishcafe@gmail.com">floralflourishcafe@gmail.com</a></p>
+        <p>Follow us: <a href="https://facebook.com/FloralFlourishCafé" target="_blank"><img src="image_file/Facebook_logo.png" alt="Facebook" height="30" width="30"></a>&emsp;<a href="https://instagram.com/FloralFlourishCafé" target="_blank"><img src="image_file/Instagram_logo.svg.webp" alt="Instagram" height="30" width="30"></a></p>
+        <p><em>Copyright &copy; 2024 Floral Flourish Café. All Rights Reserved.</em></p>
+</footer>
+</body>
+</html>

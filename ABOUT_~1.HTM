@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Floral Flourish Café - About Us</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .video video{
+            width: 100%;
+            }
+            .map{
+                position: relative;
+                left: 20px;
+            }
+            .map_1 {
+            text-align: left;
+            }
+            .map_1 h3{
+                font-size: 30px;
+                margin-bottom: 20px;
+                color: #333;
+                padding-left: 10%;
+            }
+            .map_1 p{
+                font-size: 20px;
+                margin-bottom: 10px;
+                color: #333;
+                font-family:cursive;
+                padding-left: 10%;
+            }
+            .map_1 i{
+                color: #774513;
+                margin-right: 10px;
+            }
+            .form h2{
+                color: black;
+                padding-top: 10px;
+                text-align: center;
+                font-size: 60px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            input{
+                background-color: white;
+                width: 70%;
+                margin-left: 12%;
+                font-size: 20px;
+                padding: 16px 16px;
+                border-radius: 10px;
+                border-color: black;
+                margin-bottom: 20px;
+            }
+            textarea{
+                background-color: white;
+                width: 70%;
+                margin-left: 12%;
+                font-size: 20px;
+                padding: 16px 16px;
+                border-radius: 10px;
+                border-color: black;
+                margin-bottom: 25px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            input:focus-within{
+                outline: none;
+                border-color: #5bd173;
+                border-width: 3px;
+            }
+            textarea:focus-within{
+                outline: none;
+                border-color: #5bd173;
+                border-width: 3px;
+            }
+            button{
+                border-color: #5bd173;
+                border-radius: 20px;
+                border-color: black;
+                font-size: 22px;
+                padding: 10px 18px;
+                text-align: center;
+                display: flex;
+                margin: auto;
+            }
+            button:hover{
+                opacity: 80%;
+                cursor:pointer
+            }
+            .container{
+                display: flex;
+                align-items: center;
+                justify-content:space-between;
+                background-color: #e9d9c4;
+            }
+            .video{
+                margin-left: 50px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 2900px;
+            }
+            .aboutUs{
+                display: flex;
+                align-items: center;
+                justify-content:space-between;
+                margin: 0px;
+                background-color: #e9d9c4;
+            }
+            .text p{
+                font-size: 30px;
+                font-family: cursive;
+                margin: 20px;
+            }
+            
+        </style>
+    </head>
+    <body>
+    <header>
+        <div class="logo">
+            <a href="Home.html"><img src="image_file/logo.svg" alt="Floral Flourish Café"></a>
+        </div>
+        <nav>
+            <h2>Floral Flourish Café</h2>
+            <ul>
+                <li><a href="Home.html">HOME</a>&emsp;&emsp;</li>
+                <li><a href="Flower.html">FLOWER</a>&emsp;&emsp;</li>
+                <li><a href="Beverage.html">BEVERAGE</a>&emsp;&emsp;</li>
+                <li><a href="Cake.html">CAKE</a>&emsp;&emsp;</li>               
+                <li><a href="About_us.html">ABOUT US</a>&emsp;&emsp;</li>
+            </ul>
+        </nav><!--navigation for the header-->
+    </header>
+    <main>
+        <div class="aboutUs">
+            <div class="video">
+                <video controls autoplay src="image_file/VIDEO.mp4"></video>
+            </div>
+            <div class="text">
+                <p>Floral Flourish Café, nestled in KLCC, isn't just a coffee spot—it's a haven for connection and joy. From carefully curated floral arrangements to cozy seating, every detail fosters moments of warmth and belonging. We prioritize <strong>quality</strong>, <strong>sustainability</strong>, and <strong>supporting local communities</strong>. Step in for more than just coffee; find a space where tales are shared, memories are made, and every moment is infused with floral elegance and genuine connection.
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="map"><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63736.43816052387!2d101.6874183148134!3d3.2179238361111833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37d12d669c1f%3A0xc955b08cfc1aae29!2z5ZCJ6ZqG5Z2h5Z-O5Lit5Z-O6Ziz5YWJ5bm_5Zy6!5e0!3m2!1szh-CN!2smy!4v1713600499369!5m2!1szh-CN!2smy" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p></div>
+            <div class="map_1">
+                <h3>Contact Information</h3>
+                <p><i>&#128222;</i>Floral_Flourish_Café@gmail.com</p>
+                <p><i>&#128222;</i><br>011-33948380</p>
+                <p><i>&#9993;</i><br>241<br>Petronas Twin Tower<br>Kuala Lumpur City Centre<br>50088 Kuala Lumpur<br>Wilayah Persekutuan Kuala Lumpur</p>
+            </div>
+            <div class="form"><h2>Contact Form</h2>
+                <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+                <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+                <input type="email" name="email" placeholder="Email Adress" autocomplete="off" required>
+                <textarea rows="5" cols="60" name="message" placeholder="Enter Comment" autocomplete="off" required></textarea>
+                <button type="submit">Send Message</button>
+            </div>
+        </div>
+    </main>
+    <footer><!--Here is footer!!!! No any content below this!!!!!-->
+        <h1>Floral Flourish Café</h1>
+        <h3><em>Visit us for a delightful blend of fresh blooms and refreshing beverages.</em></h3>
+        <p>Contact: <a href="tel:+601133948380">011-33948380</a> | <a href="mailto:floralflourishcafe@gmail.com">floralflourishcafe@gmail.com</a></p>
+        <p>Follow us: <a href="https://facebook.com/FloralFlourishCafé" target="_blank"><img src="image_file/Facebook_logo.png" alt="Facebook" height="30" width="30"></a>&emsp;<a href="https://instagram.com/FloralFlourishCafé" target="_blank"><img src="image_file/Instagram_logo.svg.webp" alt="Instagram" height="30" width="30"></a></p>
+        <p><em>Copyright &copy; 2024 Floral Flourish Café. All Rights Reserved.</em></p>
+</footer>
+</body>
+</html>
